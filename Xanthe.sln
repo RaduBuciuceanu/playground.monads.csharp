@@ -4,6 +4,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{83978988-4D6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xanthe.Presentation", "src\Xanthe.Presentation\Xanthe.Presentation.csproj", "{87B8C8DC-8D2C-437A-BE08-FD24BBED4DCD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xanthe.Domain", "src\Xanthe.Domain\Xanthe.Domain.csproj", "{C31107FB-A8E1-4CF0-A7DA-76B57E067383}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -11,11 +13,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{87B8C8DC-8D2C-437A-BE08-FD24BBED4DCD} = {83978988-4D64-4DB0-A152-59779D1EB1E4}
+		{C31107FB-A8E1-4CF0-A7DA-76B57E067383} = {83978988-4D64-4DB0-A152-59779D1EB1E4}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{87B8C8DC-8D2C-437A-BE08-FD24BBED4DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{87B8C8DC-8D2C-437A-BE08-FD24BBED4DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87B8C8DC-8D2C-437A-BE08-FD24BBED4DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87B8C8DC-8D2C-437A-BE08-FD24BBED4DCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C31107FB-A8E1-4CF0-A7DA-76B57E067383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31107FB-A8E1-4CF0-A7DA-76B57E067383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31107FB-A8E1-4CF0-A7DA-76B57E067383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31107FB-A8E1-4CF0-A7DA-76B57E067383}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
